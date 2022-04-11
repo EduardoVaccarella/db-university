@@ -1,0 +1,7 @@
+SELECT COUNT(id) FROM `students` GROUP BY EXTRACT(year FROM enrolment_date);
+
+SELECT COUNT(id) FROM `teachers` GROUP BY `office_address`;
+
+SELECT AVG(vote) FROM `exam_student`;
+
+SELECT COUNT(id) FROM `degrees` GROUP BY `department_id`;
